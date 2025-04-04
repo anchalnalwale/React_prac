@@ -17,15 +17,31 @@
 
 // export default App
 
+// import React from 'react'
+// import './App.css'
+// import MsgBox from './MsgBox'
+
+// const App = () => {
+//   return (
+//     <>
+//       <MsgBox username="Anchal" textcolor="pink"/>
+//       <MsgBox username="Abhinav" textcolor="yellow"/>
+//     </>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import './App.css'
-import MsgBox from './MsgBox'
+import Product from './Product'
 
 const App = () => {
   return (
     <>
-      <MsgBox username="Anchal" textcolor="pink"/>
-      <MsgBox username="Abhinav" textcolor="yellow"/>
+      <Product title="Logitech MX Master" idx="0"/>
+      <Product title="Apple Pencil (2nd Gen)" idx="1"/>
+      <Product title="Zebronics Zeb-transformer" idx="2"/>
+      <Product title="Petronics Toad 2D" idx="3"/>
     </>
   )
 }
