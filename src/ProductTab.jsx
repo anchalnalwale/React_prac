@@ -3,7 +3,7 @@ import Product from './Product';
 
 const ProductTab = () => {
   return (
-    <div className='flex flex-row justify-center items-center'>
+    <div className='flex flex-wrap justify-center items-center gap-6'>
       <Product title="Logitech MX Master" idx={0}/>
       <Product title="Apple Pencil (2nd Gen)" idx={1}/>
       <Product title="Zebronics Zeb-transformer" idx={2}/>
