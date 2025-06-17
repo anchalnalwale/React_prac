@@ -11,9 +11,9 @@ const Product = ({title ,idx}) => {
     ["Wireless"],
   ];
   return (
-    <div className='flex flex-col bg-emerald-500 mx-5 my-5 pt-5 pl-5 rounded-lg justify-center items-center'>
-      <h1 className='text-2xl p-5'>{title}</h1>
-      <p >{description[idx]}</p>
+    <div className='flex flex-col bg-emerald-500 mx-5 my-5 pt-5 pl-5 rounded-lg justify-center items-center w-[300px] gap-4'>
+      <h1 className='text-2xl pr-5'>{title}</h1>
+      <ul>{description[idx]}</ul>
       <Price oldPrices={oldPrices[idx]} newPrices={newPrices[idx]}/>
     </div>
   )
