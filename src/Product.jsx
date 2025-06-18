@@ -13,6 +13,7 @@ const Product = ({title ,idx}) => {
   return (
     <div className='flex flex-col bg-emerald-500 mx-5 my-5 pt-5 pl-5 rounded-lg justify-center items-center w-[300px] gap-4'>
       <h1 className='text-2xl pr-5'>{title}</h1>
+
       <ul>{description[idx]}</ul>
       <Price oldPrices={oldPrices[idx]} newPrices={newPrices[idx]}/>
     </div>
