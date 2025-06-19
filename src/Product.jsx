@@ -6,8 +6,8 @@ import img3 from './assets/images/img3.jpg'
 import img4 from './assets/images/img4.webp'
 
 const Product = ({title ,idx}) => {
-  let oldPrices = ["11,789" , "4,999" , "590" , "20,399"];
-  let newPrices = ["10,500" , "3,200" , "450" , "18,999"];
+  let oldPrices = ["12,495" , "11,900" , "1,599" , "599"];
+  let newPrices = ["8,999" , "9,199" , "899" , "278"];
   let description = [
     ["8,000 DPI"],
     ["Intuitive Surface"],
