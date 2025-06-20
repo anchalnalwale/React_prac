@@ -27,7 +27,7 @@ const Product = ({title ,idx}) => {
        <img
         src={images[idx]}
         alt={title}
-        className="w-[200px] h-[150px] rounded shadow-md"
+        className="flex w-[200px] h-[150px] rounded shadow-lg justify-center items-center mr-7"
       />
       <ul>{description[idx]}</ul>
       <Price oldPrices={oldPrices[idx]} newPrices={newPrices[idx]}/>
